@@ -1,3 +1,75 @@
 body{
 	font-family: 'Roboto', sans-serif;
+    min-width: 320px;
+}
+
+.header {
+    /* The image used */
+    background-image: url("/kulina/desktop/images/workplace.jpg");
+    background-size: auto;
+    /* Full height */
+    height: 50%;
+
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+nav{
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+    /*background-color:transparent !important;
+    border-color:transparent;
+    background-image:none;
+    box-shadow:none;*/
+}
+
+.affix {
+    background-color:transparent;
+    border-color:transparent;
+    padding: 15px;
+    -webkit-transition:all 0.2s ease;
+    -moz-transition:all 0.2s ease;
+    -o-transition:all 0.2s ease;
+    transition:all 0.2s ease;
+}
+
+.button-wrapper {
+    background-color: #ff6600;    
+    display: block;
+    margin-top: 5%;    
+}
+
+.card{
+    margin-bottom: 3%;
+}
+
+hr{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.footer{
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.footer-right{
+    width: 24px;
+    height: 24px;
+    margin-right: 1%;
+}
+
+.footer-left{
+    width: 12px;
+    height: 12px;
+    margin-right: 0;
 }
